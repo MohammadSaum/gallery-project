@@ -1,16 +1,33 @@
-# React + Vite
+# Gallery Project 📸
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and interactive image gallery application built with **React** and **Vite**. This project demonstrates a clean and modern way to display image collections with optimized performance.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Fast Performance**: Powered by Vite for lightning-fast hot module replacement (HMR).
+* **Responsive Design**: layouts that adapt gracefully to mobile, tablet, and desktop screens.
+* **Modern UI**: Clean and minimalist interface to showcase photography.
+* **Component-Based**: Modular architecture using React components.
+* **Linting**: Integrated ESLint configuration for code quality.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Frontend Library**: [React](https://reactjs.org/)
+* **Build Tool**: [Vite](https://vitejs.dev/)
+* **Language**: JavaScript (ES6+)
+* **Styling**: CSS / HTML5
+* **Code Quality**: ESLint
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+gallery-project/
+├── public/              # Static assets (favicons, etc.)
+├── src/                 # Source code
+│   ├── App.jsx          # Main application component
+│   ├── main.jsx         # Entry point
+├── .gitignore           # Git ignore rules
+├── eslint.config.js     # ESLint configuration
+├── index.html           # HTML entry point
+├── package.json         # Project dependencies and scripts
+└── vite.config.js       # Vite configuration
