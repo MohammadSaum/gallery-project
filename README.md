@@ -70,3 +70,18 @@ npm run build: Builds the app for production.
 npm run lint: Runs ESLint to check for code quality issues.
 
 npm run preview: Locally preview the production build.
+
+🤝 Contributing
+Contributions are always welcome! If you'd like to improve the gallery (e.g., add a lightbox, masonry layout, or filtering):
+
+Fork the project.
+
+Create your feature branch (git checkout -b feature/AmazingFeature).
+
+Commit your changes (git commit -m 'Add some AmazingFeature').
+
+Push to the branch (git push origin feature/AmazingFeature).
+
+Open a Pull Request.
+
+Made with ❤️ by MohammadSaum
